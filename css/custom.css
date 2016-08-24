@@ -10,6 +10,7 @@
 	opacity: .4;
 	height:400px;
 	position:relative;
+  border: 10px solid #ffff99;
 
 }
 
@@ -50,8 +51,11 @@
 }
 
 .nav {
+  opacity: .6;
 	font-family: 'Raleway', sans-serif;
 	padding:10px;
+  text-align: center;
+  
 }
 
 .one_row{
@@ -62,7 +66,7 @@
   min-height: 20px;
 }
 
-@media (max-width: 420px){
+@media (max-width: 480px){
 .one_row {
   width: 100%;
 }
@@ -125,12 +129,37 @@ ol, ul {
 #picnav .thumbs .row{
   margin-right: 15px;
 }
+
+.aboutMe{
+  font-family: 'Raleway', sans-serif;
+  height: 400px;
+}
+
 .aboutMe_content p{
 	margin-top: 10px;
+  opacity: .6;
 }
 .corn_pic{
 	background-image: url(aboutme.jpg);
 	background-size: cover;
-	height: 400px;
+	height: 380px;
+}
+
+.title{
+  font-family: 'Dancing Script', cursive;
+  opacity: .6;
+}
+.map_content {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+
+}
+.map{
+  background-image: url(map.jpg);
+  background-size: cover;
+  height: 400px;
+  width:100%;
+  opacity: .6;
+  border: 10px solid #ffff99;
 }
 
