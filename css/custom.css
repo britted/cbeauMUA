@@ -1,0 +1,136 @@
+.navbar-default {
+  background-color: white;
+  border-color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header_image{
+	background-image: url(DSC_0293.jpg);
+	background-size: cover;
+	opacity: .4;
+	height:400px;
+	position:relative;
+
+}
+
+.header_content{
+	opacity: 0.8;
+    color: #FFFFFF;
+	width:75%;
+	height:250px;
+	position:absolute;
+	left:12.5%;
+	top:17%;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+	line-height: 100px; 
+}
+
+.header_content h3{
+	font-family: 'Raleway', sans-serif;
+}
+
+.header_text{
+	left: 0;
+    position:relative;
+    text-align:center;
+    width: 100%;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size:1000%;
+}
+
+@media (max-width: 768px){
+.header_text{
+	font-size:500%;
+}
+.header_content h3{
+	font-size: 100%;
+}
+}
+
+.nav {
+	font-family: 'Raleway', sans-serif;
+	padding:10px;
+}
+
+.one_row{
+  width: 47.5%;
+    position: relative;
+  float: left;
+  margin: 0px 1.25%;
+  min-height: 20px;
+}
+
+@media (max-width: 420px){
+.one_row {
+  width: 100%;
+}
+}
+
+#picnav .thumbs li a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: #2B2B2B;
+  margin: 0px;
+  padding: 0px;
+}
+#picnav .thumbs li {
+  margin-bottom: 25px;
+}
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+#picnav .thumbs li a:hover span {
+  opacity: 1.0;
+  -webkit-transition: opacity 0.3s;
+}
+
+#picnav .thumbs li a span {
+  color:#351938;
+  display: block;
+  height: 36px;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 8px 10px;
+  background: transparent;
+  bottom: 0px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  line-height: normal;
+  z-index: 5;
+  font-size: 14px;
+  line-height: normal;
+}
+/*
+@media (max-width: 880px){
+#picnav li a span {
+  display: none;
+}
+}*/
+@media (max-width: 660px){
+#picnav .thumbs li {
+  margin-bottom: 12px;
+}
+}
+#picnav .thumbs .row{
+  margin-right: 15px;
+}
+.aboutMe_content p{
+	margin-top: 10px;
+}
+.corn_pic{
+	background-image: url(aboutme.jpg);
+	background-size: cover;
+	height: 400px;
+}
+
