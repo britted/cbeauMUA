@@ -196,17 +196,16 @@ ol, ul {
 }
 
 .contact_button{
-	background-color:transparent;
 	border-width:3px;
 	border-radius:1px 1px;
 	border-color:#cccccc;
-	border-style:none;
+	border-style:solid;
 	color:initial;
 }
 
 .contact_button:hover{
 	background-color:#ffff99;
 	border-color:#ffff99;
-	border-style:none;
+	border-style:solid;
 	opacity:.6;
 }	
