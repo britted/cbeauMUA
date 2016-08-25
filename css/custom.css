@@ -59,12 +59,12 @@ body{
 	font-size: 100%;
 }
 
-a{
+.navlink a{
 	color:gray;
 	opacity:.6;
 }
 
-a:hover{
+.navlink a:hover{
 	color:#cccccc;
 	text-decoration:none;
 }
