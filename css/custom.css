@@ -59,12 +59,12 @@ body{
 	font-size: 100%;
 }
 
-.navlink a{
+.nav_link a{
 	color:gray;
 	opacity:.6;
 }
 
-.navlink a:hover{
+.nav_link a:hover{
 	color:#cccccc;
 	text-decoration:none;
 }
@@ -176,7 +176,6 @@ ol, ul {
 }
 .title{
   font-family: 'Dancing Script', cursive;
-  opacity: .6;
   margin-top:5px;
 }
 .map_content {
