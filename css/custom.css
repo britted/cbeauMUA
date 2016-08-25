@@ -49,12 +49,18 @@
 	font-size: 100%;
 }
 }
+a{
+	color:black;
+	opacity:.6;
+}
 
+a:hover{
+	color:#ffff99;
+}
 .nav {
-  opacity: .6;
 	font-family: 'Raleway', sans-serif;
 	padding:10px;
-  text-align: center;
+  	text-align: center;
   
 }
 
