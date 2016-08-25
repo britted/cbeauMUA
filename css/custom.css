@@ -137,10 +137,13 @@ ol, ul {
 }
 
 .aboutMe_content {
-	margin-top: 10px;
 	opacity: .6;
 	padding-right:25px;
 	padding-left:1.25%;
+}
+
+.aboutMe_content p{
+	margin-top: 10px;
 }
 .corn_pic{
 	background-image: url(aboutme.jpg);
@@ -152,6 +155,7 @@ ol, ul {
 .title{
   font-family: 'Dancing Script', cursive;
   opacity: .6;
+  margin-top:5px;
 }
 .map_content {
   font-family: 'Raleway', sans-serif;
