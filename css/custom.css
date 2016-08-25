@@ -50,14 +50,15 @@
 }
 }
 a{
-	color:black;
+	color:gray;
 	opacity:.6;
 }
 
 a:hover{
-	color:#ffff99;
+	color:#cccccc;
 }
 .nav {
+	opacity:.6;
 	font-family: 'Raleway', sans-serif;
 	padding:10px;
   	text-align: center;
