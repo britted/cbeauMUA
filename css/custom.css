@@ -200,10 +200,11 @@ ol, ul {
 	border-width:3px;
 	border-radius:1px 1px;
 	border-color:#cccccc;
-	color:inherit;
+	color:initial;
 }
 
 .contact_button:hover{
 	background-color:#ffff99;
+	border-color:#ffff99;
 	opacity:.6;
 }	
