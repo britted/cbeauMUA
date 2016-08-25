@@ -201,9 +201,10 @@ ol, ul {
 	border-width:3px;
 	border-radius:1px 1px;
 	border-color:#cccccc;
+	color:inherit;
 }
 
 .contact_button:hover{
-	border-color:#ffff99;
+	background-color:#ffff99;
 	opacity:.6;
 }	
