@@ -66,6 +66,7 @@ a{
 
 a:hover{
 	color:#cccccc;
+	text-decoration:none;
 }
 .nav {
 	opacity:.6;
