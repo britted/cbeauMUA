@@ -190,6 +190,7 @@ ol, ul {
   width:100%;
   opacity: .6;
   border: 10px solid #ffff99;
+  margin-bottom:50px;
 }
 .contact_header{
 	margin-top:25%;
