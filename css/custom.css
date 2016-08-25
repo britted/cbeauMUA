@@ -1,5 +1,5 @@
-body{
-	margin-bottom:20px;
+.row{
+	margin: 0px 1.25%;
 }
 .navbar-default {
   background-color: white;
@@ -19,14 +19,14 @@ body{
 
 .header_content{
 	opacity: 0.8;
-    color: #FFFFFF;
+    	color: #FFFFFF;
 	width:75%;
 	height:250px;
 	position:absolute;
 	left:12.5%;
 	top:17%;
-    padding: 10px 20px 10px 20px;
-    text-align: center;
+	padding: 10px 20px 10px 20px;
+    	text-align: center;
 	line-height: 100px; 
 }
 
@@ -36,12 +36,12 @@ body{
 
 .header_text{
 	left: 0;
-    position:relative;
-    text-align:center;
-    width: 100%;
-    color:white;
-    font-family: 'Dancing Script', cursive;
-    font-size:1000%;
+    	position:relative;
+    	text-align:center;
+    	width: 100%;
+    	color:white;
+    	font-family: 'Dancing Script', cursive;
+    	font-size:1000%;
 }
 
 @media (max-width: 768px){
@@ -77,11 +77,11 @@ body{
 }
 
 .one_row{
-  width: 47.5%;
-    position: relative;
-  float: left;
-  margin: 0px 1.25%;
-  min-height: 20px;
+  	width: 47.5%;
+  	position: relative;
+  	float: left;
+	margin: 0px 1.25%;
+	min-height: 20px;
 }
 
 @media (max-width: 480px){
