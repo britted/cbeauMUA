@@ -48,14 +48,17 @@ body{
 .header_text{
 	font-size:500%;
 }
+}
+
 @media (max-width: 660px){
 .header_text{
 	font-size:400%;
 }
+}
 .header_content h3{
 	font-size: 100%;
 }
-}
+
 a{
 	color:gray;
 	opacity:.6;
