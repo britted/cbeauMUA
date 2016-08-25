@@ -151,7 +151,7 @@ ol, ul {
 	height: 380px;
 	margin-left:-1.25%;
 }
-@media (max-width: 480px){
+@media (max-width: 660px){
 .corn_pic {
   margin-left:0;
 }
