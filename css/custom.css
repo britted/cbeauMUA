@@ -198,8 +198,7 @@ ol, ul {
 .contact_button{
 	border-width:3px;
 	border-radius:1px 1px;
-	border-color:#cccccc;
-	border-style:solid;
+	border-style:none;
 	color:initial;
 }
 
