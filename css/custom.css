@@ -195,3 +195,15 @@ ol, ul {
 .contact_header{
 	margin-top:25%;
 }
+
+.contact_button{
+	background-color:transparent;
+	border-width:3px;
+	border-radius:1px 1px;
+	border-color:#cccccc;
+}
+
+.contact_button:hover{
+	border-color:#ffff99;
+	opacity:.6;
+}	
