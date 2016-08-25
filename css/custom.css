@@ -136,10 +136,11 @@ ol, ul {
   margin-right:0px;
 }
 
-.aboutMe_content p{
+.aboutMe_content {
 	margin-top: 10px;
 	opacity: .6;
-	padding-right:-25px;
+	padding-right:25px;
+	padding-left:1.25%;
 }
 .corn_pic{
 	background-image: url(aboutme.jpg);
