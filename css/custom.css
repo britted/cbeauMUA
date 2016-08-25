@@ -157,9 +157,13 @@ ol, ul {
 .aboutMe_content {
 	opacity: .6;
 	padding-right:25px;
-	padding-left:1.25%;
+	padding-left:0;
 }
-
+@media (max-width: 768px){
+.aboutMe_content {
+  padding-right:0;
+}
+}
 .aboutMe_content p{
 	margin-top: 10px;
 }
@@ -167,13 +171,8 @@ ol, ul {
 	background-image: url(aboutme.jpg);
 	background-size: cover;
 	height: 380px;
-	margin-left:-1.25%;
 }
-@media (max-width: 768px){
-.corn_pic {
-  margin-left:0;
-}
-}
+
 .title{
   font-family: 'Dancing Script', cursive;
   margin-top:5px;
