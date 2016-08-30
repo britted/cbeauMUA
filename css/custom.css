@@ -25,6 +25,17 @@
   padding: 10px 20px 10px 20px;
       text-align: center;
   line-height: 100px; 
+=======
+	opacity: 0.8;
+    	color: #FFFFFF;
+	width:75%;
+	height:250px;
+	position:absolute;
+	left:12.5%;
+	top:17%;
+	padding: 10px 20px 10px 20px;
+    	text-align: center;
+	line-height: 100px; 
 }
 
 .header_content h3{
@@ -39,6 +50,13 @@
       color:white;
       font-family: 'Dancing Script', cursive;
       font-size:1000%;
+	left: 0;
+    	position:relative;
+    	text-align:center;
+    	width: 100%;
+    	color:white;
+    	font-family: 'Dancing Script', cursive;
+    	font-size:1000%;
 }
 
 @media (max-width: 768px){
@@ -50,6 +68,13 @@
 @media (max-width: 660px){
 .header_text{
   font-size:400%;
+}
+}
+}
+
+@media (max-width: 660px){
+.header_text{
+	font-size:400%;
 }
 }
 .header_content h3{
@@ -70,6 +95,19 @@
   font-family: 'Raleway', sans-serif;
   padding:10px;
     text-align: center;
+	color:gray;
+	opacity:.6;
+}
+
+.nav_link a:hover{
+	color:#cccccc;
+	text-decoration:none;
+}
+.nav {
+	opacity:.6;
+	font-family: 'Raleway', sans-serif;
+	padding:10px;
+  	text-align: center;
   
 }
 
@@ -79,12 +117,21 @@
     float: left;
   margin: 0px 1.25%;
   min-height: 20px;
+  	width: 47.5%;
+  	position: relative;
+  	float: left;
+	margin: 0px 1.25%;
+	min-height: 20px;
 }
 
 @media (max-width: 480px){
 .one_row {
   width: 100%;
 }
+}
+#picnav{
+  margin-right:0px;
+  margin-left: 0px;
 }
 
 #picnav .thumbs li a {
@@ -154,6 +201,9 @@ ol, ul {
   opacity: .6;
   padding-right:25px;
   padding-left:0;
+	opacity: .6;
+	padding-right:25px;
+	padding-left:0;
 }
 @media (max-width: 768px){
 .aboutMe_content {
@@ -162,6 +212,7 @@ ol, ul {
 }
 .aboutMe_content p{
   margin-top: 10px;
+	margin-top: 10px;
 }
 .corn_pic{
   background-image: url(aboutme.jpg);
@@ -204,3 +255,4 @@ ol, ul {
   border-style:solid;
   opacity:.6;
 } 
+
