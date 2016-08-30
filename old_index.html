@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,8 +26,43 @@
   <body id = "index">
 
   <section>
-    <div class = "main col-md-8 col-md-offset-2 col-xs-12 ">
-      
+    <div class = "col-md-8 col-md-offset-2 col-xs-12">
+      <!--
+      <div class="navbar navbar-default">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class = "icon-bar"></span> 
+          <span class = "icon-bar"></span> 
+          <span class = "icon-bar"></span> 
+        </button>
+        <a class="navbar-brand text muted" href="index.html">
+        
+        </a>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right nav-tabs" role = "tablist">
+            <li> 
+              <a href = "index.html" alt = "Home" class = "active"> Home
+              </a>
+            </li>              
+            <li>
+              <a href = "aboutMe.html" alt = "About Me"> About Me
+              </a>
+            </li>
+            <li>
+              <a href = "projects.html" alt = "Projects"> Projects
+              </a>
+            </li>              
+            <li>
+              <a href = "research.html" alt = "Research"> Research
+              </a>
+            </li>
+            <li>
+              <a href = "contact.html" alt = "contact"> Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    -->
       <div class = "header_image">
         <div class="header_content">
           <h1 class = "header_text">C'BEAU</h1>
@@ -34,49 +70,77 @@
         </div>
       </div>
 
+
       <div class ="nav">
-        <div class = "col-sm-2 col-sm-offset-3 col-xs-4 nav_link">
-          <a href = "#picnav"><h4>Gallery</h4></a>
+        <div class = "col-sm-2 col-sm-offset-3 col-xs-4">
+          <h4>Gallery</h4>
         </div>
-         <div class = "col-sm-2 col-xs-4 nav_link">
-          <a href = "#about"><h4>About</h4></a>
+         <div class = "col-sm-2 col-xs-4">
+          <h4>About</h4>
         </div>
-        <div class = "col-sm-2 col-xs-4 nav_link">
-          <a href = "#contact"><h4>Contact</h4></a>
+        <div class = "col-sm-2 col-xs-4">
+          <h4>Contact</h4>
         </div>
       </div>
 
-      <nav id = "picnav" class = "row">
+      <nav id = "picnav">
         <ul class = "thumbs">
-            <li class = "one_row">
+            <li class = "one_row" data-toggle="modal" data-target="#bci">
+              <a href = "#" alt = "Systems Lab">
                 <img class = "img-responsive" src="http://placehold.it/640x640">
+                <span> BCI</span>
+            </a>
             </li>
-            </li>
-            <li class = "one_row">
+            <li class = "one_row" data-toggle="modal" data-target="#machinelearningaus">
+              <a href = "#" alt = "Robotics Lab">
                 <img class = "img-responsive" src="http://placehold.it/640x640">
+                <span> Machine Learning - University of Queensland</span>
+              </a>
             </li>
-            <li class = "one_row">
+            <li class = "one_row" data-toggle="modal" data-target="#machinelearning">
+              <a href = "#" alt = "Machine Learning">
                 <img class = "img-responsive" src="http://placehold.it/640x640">
+                <span> Machine Lerning - Washington University in St. Louis</span>
+              </a>
             </li>
-            <li class = "one_row">
+            <li class = "one_row" data-toggle="modal" data-target="#bci">
+              <a href = "#" alt = "Biofuels">
                 <img class = "img-responsive" src="http://placehold.it/640x640">
+                <span>Biofuels</span>
+              </a>
             </li>
-            <li class = "one_row">
+            <li class = "one_row" data-toggle="modal" data-target="#bci">
+              <a href = "#" alt = "Systems Lab">
                 <img class = "img-responsive" src="http://placehold.it/640x640">
+                <span> BCI</span>
+            </a>
             </li>
-            <li class = "one_row">
+            <li class = "one_row" data-toggle="modal" data-target="#machinelearningaus">
+              <a href = "#" alt = "Robotics Lab">
                 <img class = "img-responsive" src="http://placehold.it/640x640">
+                <span> Machine Learning - University of Queensland</span>
+              </a>
             </li>
-            <li class = "one_row">
+            <li class = "one_row" data-toggle="modal" data-target="#machinelearning">
+              <a href = "#" alt = "Machine Learning">
                 <img class = "img-responsive" src="http://placehold.it/640x640">
+                <span> Machine Lerning - Washington University in St. Louis</span>
+              </a>
             </li>
-            <li class = "one_row">
+            <li class = "one_row" data-toggle="modal" data-target="#bci">
+              <a href = "#" alt = "Biofuels">
                 <img class = "img-responsive" src="http://placehold.it/640x640">
+                <span>Biofuels</span>
+              </a>
             </li>         
         </ul>
       </nav>
-      
-      <div id = "about" class ="aboutMe row">
+
+      <span>&nbsp</span>
+
+      <div class ="aboutMe">
+        <div class = "col-sm-4 corn_pic">
+        </div>
         <div class = "col-sm-8 aboutMe_content">
           <h1 class = "title">Meet the MUA</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida in massa in euismod. Vivamus in dolor eget quam vehicula egestas. Etiam massa velit, dapibus a varius a, lobortis sed odio. Donec consectetur ullamcorper arcu in sagittis. Aliquam erat volutpat. Ut congue vel ex vel varius. Etiam quis ipsum sit amet massa varius porttitor id eu est. Sed aliquam dolor non justo viverra vehicula.
@@ -85,22 +149,22 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida in massa in euismod. Vivamus in dolor eget quam vehicula egestas. Etiam massa velit, dapibus a varius a, lobortis sed odio. Donec consectetur ullamcorper arcu in sagittis. Aliquam erat volutpat. Ut congue vel ex vel varius. Etiam quis ipsum sit amet massa varius porttitor id eu est. Sed aliquam dolor non justo viverra vehicula.
           </p>
         </div>
-        <div class = "col-sm-4 corn_pic">
-        </div>
       </div>
 
       <span>&nbsp</span>
       <span>&nbsp</span>
 
-      <div id = "contact" class = "map col-xs-12">
+      <div class = "map col-xs-12">
         <div class = "col-xs-8 col-xs-offset-2 map_content ">
-          <h1 class = "contact_header">Vivamus in dolor eget quam vehicula egestas.
+          <h1>Vivamus in dolor eget quam vehicula egestas.
           </h1>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSVsfZXkCRWgmv6uAjvbh-sWBnJcJrFKijE2OVEH9epuOwTg/viewform" target="_blank">
-            <button class = "contact_button">Connect with me</button>
-          </a>
+          <button>Connect with me</button>
         </div>
       </div>
+
+      <span>&nbsp</span>
+      <span>&nbsp</span>
+      <hr>
 
   </section>
 
